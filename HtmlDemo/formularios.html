@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+        li{color:blue;font-size:3em;}
+
+    </style>
+    <link href="css/estilos.css" rel="stylesheet" />
+         
+      <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <div id="a">
+        Soy el texto
+    </div>
+    <div id="b">
+        Soy el texto
+    </div>
+    <a href="http://www.google.com">Vivaaaaaaaaaaa</a>
+    <form method="get" action="prueba">
+        <input type="text" name="texto" placeholder="dni"
+               pattern="^([0-9]{7,8}[A-Z])|([A-Z]{1}[0-9]{8})$" />
+
+        <input name="email" type="email" required="required"
+            placeholder="email"/>
+        
+        <br />
+        
+        <input name="date"type="date" required="required"
+               placeholder="Fecha" />
+        
+        <br />
+        
+        <input name="color" type="color" required="required"
+               placeholder="Color" />
+        
+        <br />
+        
+        <input name="number" type="number" required="required"
+               placeholder="Edad" min="18" max="99" />
+        
+        <br />
+        
+        <input name="range" type="range" required="required" min="1" max="150" step="5" value="50"  /> 
+        <input type="submit" value="enviar" 
+               style="color:darkblue ;background-color:red ;font-size: 2em;" />
+        
+        <br />
+
+        
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+
+
+    </form>
+
+    <div>
+        <p>
+            <span>Soy hijo de p y de div</span>
+        </p>
+    </div>
+    <span>Yo estoy suelto</span>
+</body>
+</html>
